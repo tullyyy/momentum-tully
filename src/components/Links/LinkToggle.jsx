@@ -6,7 +6,7 @@ class LinkToggle extends Component {
     super(props);
 
     this.state = {
-      showMenu: false
+      showLinkMenu: false
     };
   }
 

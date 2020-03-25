@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TodoToggle from "./components/Todos/TodoToggle";
 import LinkToggle from "./components/Links/LinkToggle";
+import AboutToggle from "./components/About/AboutToggle";
 import getBackgroundImageURL from "./getBackgroundImageURL";
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
         className="main"
       >
         <LinkToggle />
+        <AboutToggle />
         <TodoToggle />
       </div>
     );

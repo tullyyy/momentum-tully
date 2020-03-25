@@ -15,13 +15,13 @@
 .link-toggle-wrapper {
   position: fixed;
   top: 1em;
-  left: 1em;
+  left: 2em;
   cursor: auto;
 }
 
 .link-toggle-container {
   position: relative;
-  top: 1em;
+  top: 2em;
   left: 0;
   cursor: auto;
 }
@@ -29,7 +29,7 @@
 .link-toggle {
   position: fixed;
   top: 1em;
-  left: 1em;
+  left: 2em;
   color: white;
   cursor: default;
 }

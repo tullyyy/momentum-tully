@@ -1,0 +1,101 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  background-color: rgba(15, 15, 15, 0.801);
+  max-width: 37em;
+  height: 80%;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 300;
+  padding: 4em 2.5em 3em 2.5em;
+  width: 100%;
+}
+.about-container h2,
+h3 {
+  font-size: 1em;
+  margin: 0.5em;
+  font-weight: 500;
+}
+.about-container h1,
+h3,
+h4 {
+  text-align: center;
+}
+
+.about-container a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.625;
+  font-weight: 600;
+  padding: 1em;
+  text-align: center;
+}
+
+.heart {
+  color: red;
+}
+
+.about-container h4 {
+  font-size: 0.85em;
+  opacity: 0.5;
+  font-weight: 300;
+  margin-top: 3em;
+}
+
+.about-container h1 {
+  opacity: 1;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.about-container p {
+  opacity: 0.8;
+  margin: 1em 1em 1.5em 1em;
+}
+
+.about-links {
+  width: 100%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.about-toggle-wrapper {
+  position: fixed;
+  bottom: 3em;
+  left: 1em;
+  cursor: auto;
+}
+
+.about-thumbnails {
+  display: flex;
+  justify-content: center;
+}
+
+.about-thumbnails-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.about-thumbnails-card img {
+  border-radius: 50%;
+  height: 7em;
+  margin: 0 1em 0 1em;
+}
+.about-toggle-container {
+  position: relative;
+  bottom: 1em;
+  left: 0;
+  cursor: auto;
+}
+
+.about-toggle {
+  position: fixed;
+  bottom: 2em;
+  left: 2em;
+  color: white;
+  cursor: default;
+}
