@@ -1,0 +1,35 @@
+.link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  background-color: rgba(15, 15, 15, 0.801);
+  max-width: 20em;
+  height: 80%;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0.8em;
+}
+
+.link-toggle-wrapper {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  cursor: auto;
+}
+
+.link-toggle-container {
+  position: relative;
+  top: 1em;
+  left: 0;
+  cursor: auto;
+}
+
+.link-toggle {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  color: white;
+  cursor: default;
+}
